@@ -1,4 +1,3 @@
-// ALIREZA GOLSHAN 40331323
 import view.UserInterface;
 
 public class Main {
