@@ -1,0 +1,77 @@
+.theRoot {
+    -fx-background-image: url("library.jfif");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.button {
+    -fx-background-color: #FF0000;
+    -fx-text-fill: yellow;
+    /* -fx-border-color: #000000 ; */
+    -fx-border-width: 2px;
+    -fx-font-size: 25px;
+    -fx-font-family: "Elephant" ;
+    -fx-cursor: hand;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 6px 12px;
+}
+.button:hover {
+    -fx-background-color: yellow;
+    -fx-text-fill: #FF0000 ;
+}
+
+.text-field {
+    -fx-background-color: #FF0000;
+    -fx-text-fill: yellow;
+
+
+    -fx-font-size: 25px;
+    -fx-font-family: "Elephant";
+
+    -fx-padding: 5px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 6px 12px;
+}
+.text-field:hover{
+    -fx-background-color: yellow;
+    -fx-text-fill: #FF0000 ;
+ }
+
+.label {
+     -fx-text-fill: yellow;         /* Text color (red) */
+     -fx-font-size: 25px;            /* Font size */
+     -fx-font-family: "Elephant";       /* Font */
+     -fx-background-color: #FF0000;  /* Optional background */
+     -fx-padding: 5px 10px;
+     -fx-border-radius: 10px;
+     -fx-background-radius: 10px;
+     -fx-padding: 6px 12px;
+ }
+
+.label:hover{
+     -fx-background-color: yellow;
+     -fx-text-fill: #FF0000 ;
+}
+
+.library-manager{
+     -fx-background-color: #FF0000 ;
+     -fx-pref-width: 1000px;           /* Width */
+     -fx-pref-height: 100px;
+     -fx-font-size: 30px;
+     -fx-text-fill: yellow;
+     -fx-alignment: center;         /* Centers content (text) inside the Label */
+     -fx-text-alignment: center;    /* Centers multi-line text horizontally */
+}
+
+.library-manager:hover{
+     -fx-background-color: yellow;
+     -fx-text-fill: #FF0000 ;
+}
+
+.button:focused {
+    -fx-border-radius: 10px;/* Blue border */
+    -fx-background-color: yellow;
+    -fx-text-fill:  #FF0000 ;
+}
